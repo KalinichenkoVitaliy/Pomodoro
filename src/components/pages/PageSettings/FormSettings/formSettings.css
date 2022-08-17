@@ -1,0 +1,70 @@
+.formSettings {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding: 20px;
+  background-color: var(--greyF4);
+}
+
+.formSettingsContent {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.formSettingsGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.formSettingsLabel {
+  display: flex;
+  align-items: flex-end;
+  font-size: 16px;
+  line-height: 20px;
+}
+.formSettingsLabelCheckbox {
+  font-size: 16px;
+  line-height: 17px;
+  cursor: pointer;
+}
+.formSettingsLabelCheckbox:after {
+  content: '\2714';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border-radius: 0.2em;
+  border: 0.1em solid var(--black);
+  margin-left: 0.4em;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: transparent;
+  transition: 0.2s;
+}
+
+.formSettingsInputCheckbox {
+  display: none;
+}
+
+.formSettingsLabelCheckbox:active:after {
+  transform: scale(0);
+}
+
+.formSettingsInputCheckbox:checked + .formSettingsLabelCheckbox:after {
+  border-color: var(--redDC);
+  color: var(--white);
+  background-color: var(--redDC);
+}
+
+.settingsFormInputNumber {
+  width: 5em;
+  margin-left: 0.3em;
+  font-family: inherit;
+}
+
+.settingsFormButton {
+  align-self: center;
+}

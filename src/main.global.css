@@ -1,0 +1,152 @@
+@font-face {
+  font-family: 'SFUIDisplay';
+  src: local('SF UI Display Ultralight'), local('SFUIDisplay-Ultralight'),
+    url('./assets/fonts/SFUIDisplay-Ultralight.woff2') format('woff2'),
+    url('./assets/fonts/SFUIDisplay-Ultralight.woff') format('woff');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SFUIDisplay';
+  src: local('SF UI Display Light'), local('SFUIDisplay-Light'),
+    url('./assets/fonts/SFUIDisplay-Light.woff2') format('woff2'),
+    url('./assets/fonts/SFUIDisplay-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SFUIDisplay';
+  src: local('SF UI Display Regular'), local('SFUIDisplay-Regular'),
+    url('./assets/fonts/SFUIDisplay-Regular.woff2') format('woff2'),
+    url('./assets/fonts/SFUIDisplay-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SFUIDisplay';
+  src: local('SF UI Display Medium'), local('SFUIDisplay-Medium'),
+    url('./assets/fonts/SFUIDisplay-Medium.woff2') format('woff2'),
+    url('./assets/fonts/SFUIDisplay-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'SFUIDisplay';
+  src: local('SF UI Display Bold'), local('SFUIDisplay-Bold'),
+    url('./assets/fonts/SFUIDisplay-Bold.woff2') format('woff2'),
+    url('./assets/fonts/SFUIDisplay-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --fullblack: #000000;
+  --black: #333333;
+  --red9F: #9f210c;
+  --redB7: #b7280f;
+  --redDC: #dc3e22;
+  --redEE: #ee735d;
+  --redEA: #ea8979;
+  --green5E: #5eb443;
+  --greenA8: #a8b64f;
+  --green89: #899441;
+  --yellow: #ffdda9;
+  --violet: #dfdcfe;
+  --blue: #c5f1ff;
+  --whiteLightness: 100%;
+  --white: hsl(0, 0%, var(--whiteLightness)); /* #ffffff; */
+  --greyF4: hsl(0, 0%, calc(var(--whiteLightness) - 4%)); /* #f4f4f4; */
+  --greyF3: hsl(0, 0%, calc(var(--whiteLightness) - 5%)); /* #f3f3f3; */
+  --greyEC: hsl(0, 0%, calc(var(--whiteLightness) - 7%)); /* #ececec; */
+  --greyE5: hsl(0, 0%, calc(var(--whiteLightness) - 10%)); /* #e5e5e5; */
+  --greyDE: hsl(0, 0%, calc(var(--whiteLightness) - 13%)); /* #dedede; */
+  --greyD9: hsl(0, 0%, calc(var(--whiteLightness) - 15%)); /* #d9d9d9; */
+  --greyC4: hsl(0, 0%, calc(var(--whiteLightness) - 23%)); /* #c4c4c4; */
+  --grey99: hsl(0, 0%, calc(var(--whiteLightness) - 40%)); /* #999999; */
+  --grey66: hsl(0, 0%, calc(var(--whiteLightness) - 60%)); /* #666666; */
+
+  --animePulsation: animationPulsation 1s linear infinite;
+  --animeShow: animationShow 0.8s ease-in-out;
+  --animeHide: animationHide 0.8s ease-in-out;
+}
+
+* {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: var(--black);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'SFUIDisplay', sans-serif;
+  font-size: 16px;
+  line-height: 17px;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  padding: 0;
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.body_light {
+  background-color: var(--white);
+}
+.body_dark {
+  background-color: var(--grey99);
+}
+
+@keyframes animationPulsation {
+  0% {
+    visibility: visible;
+  }
+  25% {
+    visibility: hidden;
+  }
+  75% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
+}
+@keyframes animationShow {
+  0% {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes animationHide {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+}

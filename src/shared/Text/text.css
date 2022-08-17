@@ -1,0 +1,45 @@
+.text {
+  margin: 0;
+  padding: 0;
+}
+.font {
+  font-weight: var(--fontWeight);
+  font-size: var(--fontSize);
+  line-height: var(--fontLineHeight);
+}
+.upperCase {
+  text-transform: uppercase;
+}
+.textDecoration {
+  text-decoration: var(--decoration);
+}
+.cursor {
+  cursor: var(--cursor);
+}
+.color {
+  color: var(--color);
+}
+
+@media all and (max-width: 1023px) {
+  .font_mobile {
+    font-weight: var(--fontMobileWeight);
+    font-size: var(--fontMobileSize);
+    line-height: var(--fontMobileLineHeight);
+  }
+}
+
+@media all and (min-width: 1024px) and (max-width: 1539px) {
+  .font_tablet {
+    font-weight: var(--fontTabletWeight);
+    font-size: var(--fontTabletSize);
+    line-height: var(--fontTabletLineHeight);
+  }
+}
+
+@media all and (min-width: 1540px) {
+  .font_desktop {
+    font-weight: var(--fontDesktopWeight);
+    font-size: var(--fontDesktopSize);
+    line-height: var(--fontDesktopLineHeight);
+  }
+}

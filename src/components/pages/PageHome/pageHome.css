@@ -1,0 +1,16 @@
+.pageHome {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.5%;
+  margin-top: 100px;
+}
+
+.pageHomeLeft {
+  width: 40.2343%;
+  height: max-content;
+}
+
+.pageHomeRight {
+  width: 57.2656%;
+  height: max-content;
+}

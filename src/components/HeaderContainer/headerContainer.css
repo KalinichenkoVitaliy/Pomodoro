@@ -1,0 +1,11 @@
+.headerContainer {
+  width: 100%;
+  min-height: 70px;
+  box-shadow: 0px 10px 63px rgba(0, 0, 0, 0.07);
+}
+.headerContainer_light {
+  background-color: var(--white);
+}
+.headerContainer_dark {
+  background-color: var(--black);
+}

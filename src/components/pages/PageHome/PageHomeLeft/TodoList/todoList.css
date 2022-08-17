@@ -1,0 +1,26 @@
+.todosList {
+  width: 100%;
+  max-width: 370px;
+  margin-bottom: 19px;
+  border-top: 1px solid var(--greyF4);
+}
+
+.todosListCount {
+  margin: 0;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 17px;
+}
+.todosListCount_light {
+  color: var(--grey99);
+}
+.todosListCount_dark {
+  color: var(--grey66);
+}
+
+.todosListEmpty {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 17px;
+  color: var(--black);
+}

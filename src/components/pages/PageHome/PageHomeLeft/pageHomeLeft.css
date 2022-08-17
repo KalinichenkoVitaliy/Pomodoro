@@ -1,0 +1,14 @@
+.pageHomeLeftList {
+  margin-bottom: 25px;
+  padding-left: 20px;
+  list-style-type: disc;
+  list-style-position: outside;
+  font-size: 16px;
+  line-height: 33px;
+}
+.pageHomeLeftList li {
+  color: var(--redB7);
+}
+.pageHomeLeftList li span {
+  color: var(--black);
+}

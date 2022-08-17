@@ -1,0 +1,34 @@
+.formTodoNew {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 370px;
+}
+
+.formTodoNewLabel {
+  position: relative;
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+.formTodoNewInput {
+  width: 100%;
+  padding: 19px 15px;
+  border: none;
+  font-family: inherit;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 17px;
+  color: var(--grey99);
+  background-color: var(--greyF4);
+}
+
+.formTodoNewError {
+  position: absolute;
+  top: 5px;
+  left: 15px;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 12px;
+  color: var(--redDC);
+}

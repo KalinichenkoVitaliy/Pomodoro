@@ -1,0 +1,8 @@
+.pageSettings {
+  padding: 20px 0;
+}
+
+.pageSettingsFormContainer {
+  display: flex;
+  justify-content: flex-start;
+}

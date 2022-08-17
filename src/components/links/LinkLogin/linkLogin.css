@@ -1,0 +1,19 @@
+.linkLogin {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: flex-end;
+  cursor: pointer;
+}
+
+.linkLogin:hover span,
+.linkLogin:hover path {
+  transition-property: color, fill;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.3s;
+}
+
+.linkLogin:hover span,
+.linkLogin:hover path {
+  color: var(--redB7);
+  fill: var(--redB7);
+}

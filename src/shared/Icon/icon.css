@@ -1,0 +1,39 @@
+.icon {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.icon-pomodore {
+  background-image: url('../../assets/icons/icon-pomodore.png');
+}
+.icon-button-menu-default_active {
+  background-image: url('../../assets/icons/icon-button-menu-default_active.svg');
+}
+.icon-button-menu-default_inactive {
+  background-image: url('../../assets/icons/icon-button-menu-default_inactive.svg');
+}
+.icon-button-menu-inc_active {
+  background-image: url('../../assets//icons/icon-button-menu-inc_active.svg');
+}
+.icon-button-menu-inc_inactive {
+  background-image: url('../../assets//icons/icon-button-menu-inc_inactive.svg');
+}
+.icon-button-menu-dec_active {
+  background-image: url('../../assets/icons/icon-button-menu-dec_active.svg');
+}
+.icon-button-menu-dec_inactive {
+  background-image: url('../../assets/icons/icon-button-menu-dec_inactive.svg');
+}
+.icon-button-menu-edit_active {
+  background-image: url('../../assets/icons/icon-button-menu-edit_active.svg');
+}
+.icon-button-menu-edit_inactive {
+  background-image: url('../../assets/icons/icon-button-menu-edit_inactive.svg');
+}
+.icon-button-menu-delete_active {
+  background-image: url('../../assets/icons/icon-button-menu-delete_active.svg');
+}
+.icon-button-menu-delete_inactive {
+  background-image: url('../../assets/icons/icon-button-menu-delete_inactive.svg');
+}

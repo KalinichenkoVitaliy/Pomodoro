@@ -1,0 +1,14 @@
+.linkLogo {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  cursor: pointer;
+}
+
+.linkLogo:hover span {
+  transition: color 0.3s ease-in-out;
+}
+
+.linkLogo:hover span {
+  color: var(--redB7);
+}

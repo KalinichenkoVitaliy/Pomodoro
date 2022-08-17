@@ -1,0 +1,76 @@
+.pageStatistics {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: minmax(55px, max-content) minmax(260px, max-content) minmax(179px, max-content) minmax(
+      179px,
+      max-content
+    );
+  gap: 30px;
+  width: 100%;
+  padding: 40px 0 30px;
+}
+
+.head {
+  grid-column-start: 1;
+  grid-column-end: 13;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+.timeDay {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  background-color: var(--greyF4);
+}
+.pomodoras {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  background-color: var(--greyF4);
+}
+.diagram {
+  position: relative;
+  grid-column-start: 4;
+  grid-column-end: 13;
+  grid-row-start: 2;
+  grid-row-end: 4;
+  background-color: var(--greyF4);
+}
+.diagramContent {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.diagramBG {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 59px;
+  background-color: var(--greyEC);
+}
+.focus {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  background-color: var(--yellow);
+}
+.timePause {
+  grid-column-start: 5;
+  grid-column-end: 9;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  background-color: var(--violet);
+}
+.countStop {
+  grid-column-start: 9;
+  grid-column-end: 13;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  background-color: var(--blue);
+}

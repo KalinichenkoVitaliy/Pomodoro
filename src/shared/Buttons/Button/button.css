@@ -1,0 +1,101 @@
+.inactive {
+  cursor: not-allowed;
+}
+
+.button-do,
+.button-delete,
+.button-break {
+  padding: 15px 50px;
+  border-width: 2px;
+  border-style: solid;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 17px;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.3s;
+  transition-property: border-color color background-color;
+}
+
+.inactive.button-do {
+  border-color: var(--greyC4);
+  color: var(--white);
+  background-color: var(--greyC4);
+}
+.active.button-do {
+  border-color: var(--greenA8);
+  color: var(--white);
+  background-color: var(--greenA8);
+}
+.active.button-do:hover {
+  border-color: var(--green89);
+  background-color: var(--green89);
+}
+.active.button-do:active {
+  border-color: var(--green5E);
+  background-color: var(--green5E);
+}
+
+.inactive.button-delete {
+  border-color: var(--greyC4);
+  color: var(--white);
+  background-color: var(--greyC4);
+}
+.active.button-delete {
+  border-color: var(--redDC);
+  color: var(--white);
+  background-color: var(--redDC);
+}
+.active.button-delete:hover {
+  color: var(--redDC);
+  background-color: var(--white);
+}
+.active.button-delete:active {
+  color: var(--white);
+  background-color: var(--redEE);
+}
+
+.inactive.button-break {
+  border-color: var(--greyC4);
+  color: var(--greyC4);
+  background-color: var(--white);
+}
+.active.button-break {
+  border-color: var(--redDC);
+  color: var(--redDC);
+  background-color: var(--white);
+}
+.active.button-break:hover {
+  color: var(--white);
+  background-color: var(--redDC);
+}
+.active.button-break:active {
+  color: var(--white);
+  background-color: var(--redEE);
+}
+
+.button-add {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  min-width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-weight: 300;
+  font-size: 38px;
+  line-height: 1;
+  color: var(--white);
+  transition: background-color 0.3s ease-in-out;
+}
+.inactive.button-add {
+  background-color: var(--greyE5);
+}
+.active.button-add {
+  background-color: var(--greyC4);
+}
+.active.button-add:hover {
+  background-color: var(--green89);
+}
+.active.button-add:active {
+  background-color: var(--green5E);
+}

@@ -1,0 +1,25 @@
+.container {
+  width: 100%;
+  height: 100%;
+  padding: 25px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  padding-right: 129px;
+  background-image: url('../../../../assets/images/bg-stop.svg');
+  background-size: auto;
+  background-position: right center;
+  background-repeat: no-repeat;
+}
+
+.total {
+  margin: 0;
+  font-size: 64px;
+  line-height: 76px;
+  color: var(--black);
+}

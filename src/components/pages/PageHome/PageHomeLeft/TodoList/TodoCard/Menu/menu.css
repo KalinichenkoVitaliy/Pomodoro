@@ -1,0 +1,37 @@
+.menu {
+  position: absolute;
+  top: 0;
+  right: -5px;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+
+.menuButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: transparent;
+  transition: background-color 0.3s ease-in-out;
+}
+.menuButton:hover {
+  background-color: var(--greyE5);
+}
+.menuButton:active {
+  background-color: var(--grey99);
+}
+
+.dropdown {
+  position: absolute;
+  top: -10px;
+  left: -187%;
+  background-image: url('../../../../../../../assets/images/img-border-menu.svg');
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: transparent;
+}

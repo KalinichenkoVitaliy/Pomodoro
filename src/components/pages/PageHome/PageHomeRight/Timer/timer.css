@@ -1,0 +1,21 @@
+.timer {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  font-weight: 200;
+  font-size: 150px;
+  color: var(--black);
+}
+
+.timerCount {
+  width: 86px;
+  line-height: 150px;
+}
+
+.timerCountColon {
+  align-self: flex-start;
+  line-height: 110px;
+}
+.timerCountColon_anime {
+  animation: var(--animePulsation);
+}

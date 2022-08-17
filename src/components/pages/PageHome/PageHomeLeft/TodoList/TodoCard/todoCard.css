@@ -1,0 +1,35 @@
+.todoCard {
+  position: relative;
+  display: flex;
+  flex: 1 1 0%;
+  flex-wrap: nowrap;
+  align-items: center;
+  width: 100%;
+  padding: 14px 35px 14px 0;
+  border-bottom: 1px solid var(--greyF4);
+}
+.todoCardAnimeAdd {
+  animation: var(--animeShow);
+}
+.todoCardAnimeDel {
+  animation: var(--animeHide);
+}
+
+.todoCardCount {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25px;
+  min-width: 25px;
+  height: 25px;
+  border: 1px solid var(--greyC4);
+  border-radius: 50%;
+}
+
+.todoCardCountText {
+  height: 13px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1;
+  color: var(--black);
+}

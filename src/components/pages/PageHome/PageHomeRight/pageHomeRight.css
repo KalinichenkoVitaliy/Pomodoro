@@ -1,0 +1,50 @@
+.headContainer {
+  background-color: var(--greyF4);
+}
+
+.headTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  column-gap: 20px;
+  width: 100%;
+  padding: 19px 40px;
+  font-size: 16px;
+  line-height: 17px;
+  color: var(--white);
+}
+.headTopTimerNotWokr {
+  background-color: var(--greyC4);
+}
+.headTopTimerInWokr {
+  background-color: var(--redDC);
+}
+.headTopTimerInBreak {
+  background-color: var(--greenA8);
+}
+
+.headTopCurrentPomodoro {
+  margin: 0;
+  color: inherit;
+}
+
+.headBottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.headBottomGroup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 25px;
+}
+
+.headBottomTodoText {
+  margin: 0;
+  color: var(--grey99);
+}
+.headBottomTodoTextSpan {
+  color: var(--black);
+}

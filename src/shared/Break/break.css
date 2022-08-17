@@ -1,0 +1,37 @@
+.inline {
+  display: inline;
+}
+
+.step {
+  padding: 0 var(--step) 0 0;
+}
+.step.top {
+  padding: var(--step) 0 0;
+}
+
+@media all and (max-width: 1023px) {
+  .step_mobile {
+    padding: 0 var(--stepMobile) 0 0;
+  }
+  .step_mobile.top {
+    padding: var(--stepMobile) 0 0;
+  }
+}
+
+@media all and (min-width: 1024px) and (max-width: 1539px) {
+  .step_tablet {
+    padding: 0 var(--stepTablet) 0 0;
+  }
+  .step_tablet.top {
+    padding: var(--stepTablet) 0 0;
+  }
+}
+
+@media all and (min-width: 1540px) {
+  .step_desktop {
+    padding: 0 var(--stepDesktop) 0 0;
+  }
+  .step_desktop.top {
+    padding: var(--stepDesktop) 0 0;
+  }
+}

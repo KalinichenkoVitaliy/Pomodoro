@@ -1,0 +1,19 @@
+.linkSettings {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: flex-end;
+  cursor: pointer;
+}
+
+.linkSettings:hover span,
+.linkSettings:hover path {
+  transition-property: color, fill;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.3s;
+}
+
+.linkSettings:hover span,
+.linkSettings:hover path {
+  color: var(--redB7);
+  fill: var(--redB7);
+}

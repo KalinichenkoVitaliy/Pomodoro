@@ -1,0 +1,58 @@
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+.top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 71.5%;
+}
+.topOnly {
+  min-height: 100%;
+}
+.topEmpty {
+  width: 115px;
+  height: 115px;
+  background-image: url('../../../../assets/images/img-pomodore-medium.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.topContent {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.topContentImg {
+  width: 81px;
+  height: 81px;
+  background-image: url('../../../../assets/images/img-pomodore-small.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.topContentText {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  color: var(--grey99);
+}
+
+.bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 28.5%;
+  background-color: var(--redDC);
+}
+
+.bottomText {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  color: var(--white);
+}

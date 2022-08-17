@@ -1,0 +1,19 @@
+.linkLogout {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: flex-end;
+  cursor: pointer;
+}
+
+.linkLogout:hover span,
+.linkLogout:hover path {
+  transition-property: color, fill;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.3s;
+}
+
+.linkLogout:hover span,
+.linkLogout:hover path {
+  color: var(--redB7);
+  fill: var(--redB7);
+}
